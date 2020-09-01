@@ -1,0 +1,12 @@
+[general]
+
+singleton=true
+reloadable=false
+load_once=true
+symbol_prefix="godot_text_server_"
+
+[entry]
+
+Windows.x86_64="res://bin/gdnative_text_server.dll"
+macOS="res://bin/gdnative_text_server.dylib"
+Linux.x86_64="res://bin/gdnative_text_server.so"
