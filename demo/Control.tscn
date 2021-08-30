@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqbid8sxk3vdk"]
+
+[ext_resource type="Script" path="res://Control.gd" id="1_hhbsp"]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( "1_hhbsp" )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "test"
+structured_text_bidi_override_options = []
+script = null

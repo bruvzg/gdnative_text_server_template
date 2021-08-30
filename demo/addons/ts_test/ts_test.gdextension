@@ -1,0 +1,10 @@
+[configuration]
+
+entry_symbol = "ts_test_init"
+
+[libraries]
+
+macos = "res://addons/ts_test/bin/ts_test.framework"
+linux.aarch64 = "res://addons/ts_test/bin/libts_test.aarch64.so"
+linux.x86_64 = "res://addons/ts_test/bin/libts_test.x86_64.so"
+windows.x86_64 = "res://addons/ts_test/bin/libts_test.x86_64.dll"

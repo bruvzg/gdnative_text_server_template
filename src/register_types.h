@@ -1,0 +1,4 @@
+#ifndef REGISTER_TYPES_H
+#define REGISTER_TYPES_H
+
+#endif /* REGISTER_TYPES_H */
